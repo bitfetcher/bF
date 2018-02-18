@@ -41,7 +41,7 @@ void Oscillator::step() {
 	pitch += inputs[PITCH_INPUT].value;
 	pitch = clampf(pitch, -4.0, 4.0);
 	// The default pitch is C4
-	float freq = 261.626 * powf(2.0, pitch);
+	float freq = 261.626 * powf(2.0, pitch);	
 
 	// Accumulate the phase
 	phase += freq * deltaTime;
