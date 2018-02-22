@@ -1,8 +1,10 @@
-// Bring in system includes
+#pragma once
+
+// Bring in system includes as needed
 //#include <stdlib.h>
 //#include <stdio.h>
 //#include <string.h>
-//#include <math.h>
+#include <math.h>
 //#include <algorithm>
 
 // Bring in Rack header
@@ -10,17 +12,7 @@
 
 // Bring in my own includes
 //#include "dsp/digital.hpp"
-//#include "widgets.hpp"
+#include "widgets.hpp"
 
-using namespace rack;
-//using namespace bF;
 
 extern Plugin *plugin;
-
-////////////////////
-// module widgets
-////////////////////
-
-struct OscWidget : ModuleWidget {
-	OscWidget();
-};
