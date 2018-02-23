@@ -3,28 +3,28 @@
 #define MODULE_WIDTH 2 * RACK_GRID_WIDTH
 #define PORT_SPACING 25
 
-struct Multiple : Module {
+struct Sum : Module {
     enum ParamIds {
         NUM_PARAMS
     };
     enum InputIds {
-        SOURCE_INPUT,
+		PORT1_INPUT,
+        PORT2_INPUT,
+        PORT3_INPUT,
+        PORT4_INPUT,
+        PORT5_INPUT,
+        PORT6_INPUT,
+        PORT7_INPUT,
+        PORT8_INPUT,
         NUM_INPUTS
     };
     enum OutputIds {
-        PORT1_OUTPUT,
-        PORT2_OUTPUT,
-        PORT3_OUTPUT,
-        PORT4_OUTPUT,
-        PORT5_OUTPUT,
-        PORT6_OUTPUT,
-        PORT7_OUTPUT,
-        PORT8_OUTPUT,
+		SUM_OUTPUT,
         NUM_OUTPUTS
     };
 
 
-    Multiple() : Module(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS) {}
+    Sum() : Module(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS) {}
 
     void step() override;
 

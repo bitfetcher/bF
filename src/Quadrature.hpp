@@ -29,7 +29,7 @@ struct Quadrature : Module {
 
     float phase = 0.0;
     float blinkPhase = 0.0;
-	float sine = 0.0f
+	float sine = 0.0f;
     float cosine = 1.0f;
     float notsine = -sine;
     float notcosine = -cosine;

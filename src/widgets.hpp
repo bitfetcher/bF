@@ -33,8 +33,25 @@ struct QuadWidget : ModuleWidget {
 struct MultWidget : ModuleWidget {
     MultWidget();
 };
+
+struct SumWidget : ModuleWidget {
+    SumWidget();
+};
+
 struct beeWidget : ModuleWidget {
     beeWidget();
+};
+
+struct Blank2Widget : ModuleWidget {
+    Blank2Widget();
+};
+
+struct Blank3Widget : ModuleWidget {
+    Blank3Widget();
+};
+
+struct Blank5Widget : ModuleWidget {
+    Blank5Widget();
 };
 
 struct bFScrew : SVGScrew {
@@ -54,4 +71,4 @@ struct bFCKSSH : SVGSwitch, ToggleSwitch {
 };
 
 
-} // namespace
+} // bF namespace
