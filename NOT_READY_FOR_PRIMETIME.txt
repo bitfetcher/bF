@@ -1,1 +1,0 @@
-If this file is in the repo, don't bother to clone; it's not functional
