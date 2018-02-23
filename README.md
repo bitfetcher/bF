@@ -15,9 +15,11 @@ Right now, there are just a few:
  * _Multiple_ - A one-to-eight port Multiple.
  * _Sum_ - An eight-to-one sum.
  * _Quadrature_ - A more ambitious attempt to emulate a well-known hardware module. All of its functionality is just a guess at an implementation of the real thing...
+ * A few panel blanks...
+
+ ![modules](https://github.com/bitFetcher/bf/bitFetcher_Modules.png)
 
 Currently, I have only tested on Mac OS X (High Sierra). I have access to Linux and will test there when I can find the time. Alas, I don't "do" Windows...
 
 __Feedback is welcome!__
-
 #### - *bitFetcher*
