@@ -38,10 +38,6 @@ struct SumWidget : ModuleWidget {
     SumWidget();
 };
 
-struct beeWidget : ModuleWidget {
-    beeWidget();
-};
-
 struct Blank2Widget : ModuleWidget {
     Blank2Widget();
 };

@@ -37,12 +37,6 @@ void init(rack::Plugin *p) {
 
 	p->addModel(createModel<Blank5Widget>(plugin->slug, "Blank5", "Blank 5", BLANK_TAG));
 
-//    p->addModel(createModel<beeWidget>(plugin->slug, "beeSting", "beeSting", OSCILLATOR_TAG, LFO_TAG,
-//                                       AMPLIFIER_TAG, ATTENUATOR_TAG, CLOCK_TAG,DELAY_TAG,
-//                                       DISTORTION_TAG, EFFECT_TAG, ENVELOPE_FOLLOWER_TAG,LFO_TAG,
-//                                       NOISE_TAG,OSCILLATOR_TAG, QUANTIZER_TAG,RING_MODULATOR_TAG,
-//                                       SAMPLE_AND_HOLD_TAG,SLEW_LIMITER_TAG, UTILITY_TAG,WAVESHAPER_TAG));
-
     // Any other plugin initialization may go here.
     // As an alternative, consider lazy-loading assets and lookup tables when your module is created to reduce startup times of Rack.
 }
